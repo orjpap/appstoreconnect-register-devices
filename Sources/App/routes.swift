@@ -1,9 +1,9 @@
 import Vapor
 import AppStoreConnect_Swift_SDK
 
-let configuration = APIConfiguration(issuerID: "<ISSUER-ID>",
-                                     privateKeyID: "<PKEY-ID>",
-                                     privateKey: "<PKEY>")
+let configuration = APIConfiguration(issuerID: "",
+                                     privateKeyID: "",
+                                     privateKey: "")
 
 
 func routes(_ app: Application) throws {

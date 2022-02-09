@@ -1,0 +1,21 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    dotenv (2.7.6)
+    rouge (2.0.7)
+    xcpretty (0.3.0)
+      rouge (~> 2.0.7)
+    xcpretty-json-formatter (0.1.1)
+      xcpretty (~> 0.2, >= 0.0.7)
+
+PLATFORMS
+  ruby
+  universal-darwin-20
+
+DEPENDENCIES
+  dotenv
+  xcpretty
+  xcpretty-json-formatter
+
+BUNDLED WITH
+   2.2.0

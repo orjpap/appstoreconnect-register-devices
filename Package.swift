@@ -4,13 +4,13 @@ import PackageDescription
 let package = Package(
     name: "register-ios-devices",
     platforms: [
-       .macOS(.v10_15)
+       .macOS(.v11)
     ],
     dependencies: [
         // 💧 A server-side Swift web framework.
         .package(url: "https://github.com/vapor/vapor.git", from: "4.0.0"),
         .package(url: "https://github.com/vapor/leaf.git", from: "4.0.0"),
-        .package(url: "https://github.com/AvdLee/appstoreconnect-swift-sdk.git", .upToNextMajor(from: "1.0.0")),
+        .package(name: "AppStoreConnect-Swift-SDK", path: "./lib/appstoreconnect-swift-sdk/"),
     ],
     targets: [
         .target(

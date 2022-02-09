@@ -2,15 +2,6 @@
   "object": {
     "pins": [
       {
-        "package": "AppStoreConnect-Swift-SDK",
-        "repositoryURL": "https://github.com/AvdLee/appstoreconnect-swift-sdk.git",
-        "state": {
-          "branch": null,
-          "revision": "6961347904eaad966f6eedc3b605f685dac429f8",
-          "version": "1.7.0"
-        }
-      },
-      {
         "package": "async-http-client",
         "repositoryURL": "https://github.com/swift-server/async-http-client.git",
         "state": {

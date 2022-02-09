@@ -1,7 +1,7 @@
 # ================================
 # Build image
 # ================================
-FROM swift:5.5-focal as build
+FROM swift:latest as build
 
 # Install OS updates and, if needed, sqlite3
 RUN export DEBIAN_FRONTEND=noninteractive DEBCONF_NONINTERACTIVE_SEEN=true \
@@ -17,6 +17,7 @@ WORKDIR /build
 # as long as your Package.swift/Package.resolved
 # files do not change.
 COPY ./Package.* ./
+COPY ./lib/* ./
 RUN swift package resolve
 
 # Copy entire repo into container
