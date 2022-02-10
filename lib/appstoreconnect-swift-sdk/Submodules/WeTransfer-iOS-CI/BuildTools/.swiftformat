@@ -1,7 +1,0 @@
---indent 4
---patternlet inline
---disable unusedArguments
---header strip
---commas inline
---selfrequired waitFor
---selfrequired expectation
