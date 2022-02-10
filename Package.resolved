@@ -2,6 +2,15 @@
   "object": {
     "pins": [
       {
+        "package": "AppStoreConnect-Swift-SDK",
+        "repositoryURL": "https://github.com/orjpap/appstoreconnect-swift-sdk.git",
+        "state": {
+          "branch": "linux-support",
+          "revision": "6f4bba5c7bb7e29aa3bc8861baed56a87edf5488",
+          "version": null
+        }
+      },
+      {
         "package": "async-http-client",
         "repositoryURL": "https://github.com/swift-server/async-http-client.git",
         "state": {

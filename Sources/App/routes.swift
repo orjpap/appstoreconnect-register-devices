@@ -1,6 +1,8 @@
 import Vapor
 import AppStoreConnect_Swift_SDK
 
+// Add your credentials here
+// Documentation: https://developer.apple.com/documentation/appstoreconnectapi/creating_api_keys_for_app_store_connect_api
 let configuration = APIConfiguration(issuerID: "",
                                      privateKeyID: "",
                                      privateKey: "")
