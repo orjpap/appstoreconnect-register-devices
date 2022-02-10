@@ -8,11 +8,7 @@ This is an example web app built using [vapor](https://vapor.codes) that lets us
 
 You need to have Xcode installed. The example was made in `13.2.1`
 
-In the root folder
-
-```bash
-open package.swift
-```
+In the root folder `open package.swift`
 
 *note: upon first start resolving the spm packages will take a significant amount of time*
 
